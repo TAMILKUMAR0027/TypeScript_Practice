@@ -1,4 +1,4 @@
-function sum(x:number,y:number):number{
+function addition11(x:number,y:number):number{
     return x+y
 }
-console.log(sum(2,3))
+console.log(addition(2,3))

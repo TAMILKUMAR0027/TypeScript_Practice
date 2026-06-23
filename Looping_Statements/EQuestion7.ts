@@ -1,3 +1,4 @@
+export {}
 const n = 5;
 const primes: number[] = [];
 for (let i = 2; i <= n; i++) {

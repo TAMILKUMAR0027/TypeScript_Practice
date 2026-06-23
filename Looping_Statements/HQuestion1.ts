@@ -1,3 +1,4 @@
+export {}
 const start = 11;
 const end = 40;
 const output: string[] = [];

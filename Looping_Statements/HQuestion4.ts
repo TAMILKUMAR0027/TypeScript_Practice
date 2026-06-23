@@ -1,3 +1,4 @@
+export {}
 const x = 220;
 const y = 284;
 function sumProperDivisors(n: number) {

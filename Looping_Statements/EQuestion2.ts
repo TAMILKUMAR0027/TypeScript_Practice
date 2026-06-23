@@ -1,3 +1,4 @@
+export {}
 let num = 2;
 let power = 3;
 let value = 1;

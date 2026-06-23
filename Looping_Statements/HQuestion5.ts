@@ -1,3 +1,4 @@
+export {}
 let n = 315;
 const factors: number[] = [];
 for (let i = 2; i * i <= n; i++) {

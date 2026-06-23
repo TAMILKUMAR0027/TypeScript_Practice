@@ -1,3 +1,4 @@
+export {}
 const num = 5672;
 let evenSum = 0;
 let oddSum = 0;

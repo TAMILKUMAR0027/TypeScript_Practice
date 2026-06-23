@@ -1,3 +1,4 @@
+export {}
 const num = 1634;
 const digits = num.toString().split('').map(Number);
 const power = digits.length;

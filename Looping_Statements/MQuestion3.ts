@@ -1,3 +1,4 @@
+export {}
 const n = 91;
 if (n <= 1) {
     console.log('No');
