@@ -1,13 +1,16 @@
-import readlineSync from 'readline-sync';
 export{}
-let totalPercentage=readlineSync.questionInt()
-let actualPercentage=readlineSync.questionInt()
-if(actualPercentage>=75){
+
+// Hard-coded inputs
+let totalPercentage = 100
+let actualPercentage = 70
+let medicalCertificate = 'y'
+
+if (actualPercentage >= 75) {
     console.log("Allowed")
-}else{
-    if(readlineSync.question("enter the medical certificate")=='y'){
+} else {
+    if (medicalCertificate == 'y') {
         console.log("allowed")
-    }else{
+    } else {
         console.log("not allowed")
     }
 }

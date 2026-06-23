@@ -1,6 +1,7 @@
-import readlineSync from "readline-sync";
 export {}
-let income = readlineSync.questionInt("Enter income: ");
+
+// Hard-coded income
+let income = 600000
 let tax = 0;
 if (income <= 250000) {
     console.log("You are exempted from tax");

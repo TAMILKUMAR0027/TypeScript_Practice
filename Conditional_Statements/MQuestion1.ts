@@ -1,13 +1,13 @@
-import readlineSync from 'readline-sync';
 export{}
 
-let num1:number=readlineSync.questionInt()
-if(num1<0){
+// Hard-coded age
+let num1: number = 16
+if (num1 < 0) {
     console.log("Invalid age")
-}else if(num1<15){
+} else if (num1 < 15) {
     console.log("Cartoons club")
-}else if(num1>=15 && num1<=20){
+} else if (num1 >= 15 && num1 <= 20) {
     console.log("Teens club")
-}else{
+} else {
     console.log('Not allowed')
 }

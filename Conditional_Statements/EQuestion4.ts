@@ -1,9 +1,9 @@
-import readlineSync from 'readline-sync';
 export{}
 
-let num1:number=readlineSync.questionInt()
-if(num1>=4){
+// Hard-coded input
+let num1: number = 4
+if (num1 >= 4) {
     console.log("Eligible for admission")
-}else{
+} else {
     console.log("Not eligible")
 }
