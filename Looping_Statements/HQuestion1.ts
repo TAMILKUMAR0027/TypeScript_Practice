@@ -1,10 +1,6 @@
-import readlineSync from 'readline-sync';
-export {}
-
-const start = readlineSync.questionInt();
-const end = readlineSync.questionInt();
+const start = 11;
+const end = 40;
 const output: string[] = [];
-
 for (let i = start; i <= end; i++) {
     if (i % 10 === 0) {
         output.push('dong');
@@ -14,5 +10,4 @@ for (let i = start; i <= end; i++) {
         output.push(i.toString());
     }
 }
-
 console.log(output.join(' '));

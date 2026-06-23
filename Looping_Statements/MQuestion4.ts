@@ -1,20 +1,7 @@
-import readlineSync from 'readline-sync';
-export {}
-
-const n = readlineSync.questionInt();
-const primes: number[] = [];
-
-for (let i = 2; i <= n; i++) {
-    let isPrime = true;
-    for (let j = 2; j * j <= i; j++) {
-        if (i % j === 0) {
-            isPrime = false;
-            break;
-        }
-    }
-    if (isPrime) {
-        primes.push(i);
-    }
+const n = 1234;
+const digits = Math.abs(n).toString();
+if (digits.length !== 5) {
+    console.log('Not a valid number');
+} else {
+    console.log(digits.split('').reverse().join(''));
 }
-
-console.log(primes.join(' '));
