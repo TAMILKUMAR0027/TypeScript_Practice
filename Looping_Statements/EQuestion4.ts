@@ -1,6 +1,9 @@
 import readlineSync from 'readline-sync';
 export{}
 let n=readlineSync.questionInt();
-for (let i =1;i<=n;i++){
+let total=0
+for (let i=n;i>0;i--){
     console.log(i)
+    total+=i
 }
+console.log(total)
