@@ -1,8 +1,8 @@
+import readlineSync from 'readline-sync'
 export {}
-// Hard-coded input
-let date = "2,2020"
-let month = Number(date.split(",")[0])
-let year = Number(date.split(",")[1])
+let date = readlineSync.question("Enter month,year: ")
+let month=Number(date.split(",")[0])
+let year=Number(date.split(",")[1])
 let monthName=""
 let days=0
 switch(month){

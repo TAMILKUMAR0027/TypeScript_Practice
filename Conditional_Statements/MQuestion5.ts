@@ -1,13 +1,12 @@
+import readlineSync from 'readline-sync';
 export{}
 
-// Hard-coded input
-let quantity: number = 50
-let totalPrice = 0
-if (quantity < 10) {
-    totalPrice += quantity * 12
-} else if (quantity >= 10 && quantity <= 100) {
-    totalPrice += quantity * 10
-} else {
-    totalPrice += quantity * 7
+let quantity:number=readlineSync.questionInt()
+let totalPrice=0
+if(quantity<10){
+    totalPrice+=quantity*12
+}else if(quantity>=10 && quantity<=100){
+    totalPrice+=quantity*10
+}else{
+    totalPrice+=quantity*7
 }
-console.log(totalPrice)

@@ -1,9 +1,9 @@
+import readlineSync from 'readline-sync';
 export{}
 
-// Hard-coded input
-let num1: number = -2
-if (num1 < 0) {
+let num1:number=readlineSync.questionInt()
+if(num1<0){
     console.log("Negative number")
-} else {
+}else{
     console.log("Positive number")
 }

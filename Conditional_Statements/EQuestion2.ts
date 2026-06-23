@@ -1,9 +1,9 @@
+import readlineSync from 'readline-sync';
 export{}
 
-// Hard-coded input
-let num1: number = 8
-if (num1 % 2 == 0) {
+let num1:number=readlineSync.questionInt()
+if(num1%2==0){
     console.log("it is a even number")
-} else {
+}else{
     console.log("It is odd number")
 }
